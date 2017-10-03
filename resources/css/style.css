@@ -9,13 +9,13 @@ html {
 }
 
 header {
-	height: 150px;
+	height: 9rem;
 	width: 100%;
 	background-color: black;
 }
 
 #header-wrapper {
-	height: 150px;
+	height: 9rem;
 	width: 80%;
 	margin: 0 auto;
 	display: flex;
@@ -23,25 +23,24 @@ header {
 }
 
 #header-wrapper img {
-	height: 60px;
-	
+	height: 4rem;
 }
 
 #header-wrapper h1 {
 	color: white;
 	font-size: 1.5rem;
-	padding-left: 30px;
+	padding-left: 2.2rem;
 }
 
 #banner {
 	width: 100%;
-	height: 400px;
+	height: 25rem;
 	background-image: url("../img/moto.jpeg");
 	background-size: cover;
 }
 
 #banner-wrapper {
-	height: 400px;
+	height: 25rem;
 	width: 80%;
 	margin: 0 auto;
 	display: flex;
@@ -49,51 +48,56 @@ header {
 }
 
 #new-items {
-	height: 180px;
-	width: 400px;
+	height: 11rem;
+	width: 24.4rem;
 	background-color: black;
 	opacity: 0.9;
 }
 
 #new-items p {
-	font-size: 20px;
+	font-size: 1.25rem;
 	color: white;
-	padding-left: 20px;
-	padding-top: 25px;
+	padding-left: 1.25rem;
+	padding-top: 1.5625rem;
 }
 
 #new-items h1 {
-	font-size: 40px;
+	font-size: 2.5rem;
 	color: white;
-	padding-top: 10px;
-	padding-left: 20px;
+	padding-top: 0.625rem;
+	padding-left: 1.25rem;
 	font-weight: 700;
-	line-height: 50px;
+	line-height: 3.125rem;
 }
 
 nav {
-	height: 50px;
+	height: 3.125rem;
 	width: 100%;
 	background-color: firebrick;
 }
 
 #nav-wrapper {
-	height: 50px;
+	height: 3.125rem;
 	width: 80%;
 	margin: 0 auto;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
- 
+
+#nav-wrapper ul {
+	display: flex;
+}
+
 #nav-wrapper ul li {
 	display: inline;
 }
 
 #nav-wrapper ul li a {
-	font-size: 20px;
+	font-size: 1.25rem;
 	color: white;
 	text-decoration: none;
-	padding-left: 78px;
+	padding: 3.6rem;
 }
 
 #nav-wrapper ul li a:hover {

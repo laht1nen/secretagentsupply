@@ -105,14 +105,14 @@ nav {
 }
 
 section {
-	height: 1000px;
+	height: 70rem;
 	width: 100%;
 	background-color: rgba(230, 230, 230, 1);
 }
 
 #section-wrapper {
 	width: 80%;
-	height: 400px;
+	height: 28rem;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
@@ -120,22 +120,34 @@ section {
 }
 
 .item {
-	height: 350px;
-	width: 300px;
+	height: 21.88rem;
+	width: 18.75rem;
 	border: black 5px solid;
 	display: flex;
 	align-items: flex-end;
 }
 
+.first {
+	background-image: url("../img/pen1.jpg");
+}
+
+.second {
+	background-image: url("../img/watch1.jpg");
+}
+
+.third {
+	background-image: url("../img/glasses1.jpg");
+}
+
 .item-header {
 	background-color: black;
-	height: 50px;
+	height: 3.125rem;
 	width: 100%;
 	text-align: center;
 }
 
 .item-header h2 {
 	color: white;
-	font-size: 25px;
-	padding-top: 13px;
+	font-size: 	1.5625rem;
+	padding-top: 0.8125rem;
 }

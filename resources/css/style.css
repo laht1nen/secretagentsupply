@@ -91,13 +91,13 @@ nav {
 
 #nav-wrapper ul li {
 	display: inline;
+	padding: 3.6rem;
 }
 
 #nav-wrapper ul li a {
 	font-size: 1.25rem;
 	color: white;
 	text-decoration: none;
-	padding: 3.6rem;
 }
 
 #nav-wrapper ul li a:hover {
